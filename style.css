@@ -1,0 +1,55 @@
+.agendaTelefonica {
+    background-color: rgb(255, 204, 0);
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px 
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+[name="name"] {
+    margin-right: 10px;
+}
+
+#btn {
+    background-color: rgb(60, 60, 183);
+    color: whitesmoke;
+    padding: 7px 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#agenda {
+    background-color: rgb(255, 204, 0);
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+#warning, #warningName, #warningNamePhone {
+    color: #f02849;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 992px) { 
+    .agendaTelefonica {
+        width: 40%;
+    }
+}
